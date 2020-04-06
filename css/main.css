@@ -106,8 +106,7 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: {{ site.navbar-col }};
-  border-bottom: 1px solid #EAEAEA;
+  background: {{ site.navbar-col }};
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}
   background-image: url({{ site.navbar-img | relative_url }});
@@ -131,7 +130,7 @@ img {
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: {{ site.hover-col }};
+  color: {{ site.navbar-children-col }};
 }
 
 .navbar-custom .navbar-brand-logo {
@@ -163,6 +162,7 @@ img {
 
   .navbar-custom.top-nav-short {
     padding: 0;
+    box-shadow: 0 2px 4px 1px rgba(0,0,0,.1);
   }
 }
 

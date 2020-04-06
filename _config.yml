@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: The Researcher's Hideout
+title: "The Researcher's Hideout"
 
 # Short description of your site
-description: Stories about AI and other amazing adventures.
+description: "Stories about AI and other amazing adventures."
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
