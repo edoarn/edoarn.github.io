@@ -37,40 +37,10 @@ linkedin:
   urlTemplate: "https://linkedin.com/in/{value}"
   icon: "fab fa-linkedin"
 
-xing:
-  name: "Xing"
-  urlTemplate: "https://www.xing.com/profile/{value}"
-  icon: "fab fa-xing"
-
-stackoverflow:
-  name: "StackOverflow"
-  urlTemplate: "https://stackoverflow.com/users/{value}"
-  icon: "fab fa-stack-overflow"
-
-snapchat:
-  name: "Snapchat"
-  urlTemplate: "https://www.snapchat.com/add/{value}"
-  icon: "fab fa-snapchat-ghost"
-
-instagram:
-  name: "Instagram"
-  urlTemplate: "https://www.instagram.com/{value}"
-  icon: "fab fa-instagram"
-
 youtube:
   name: "YouTube"
   urlTemplate: "https://www.youtube.com/{value}"
   icon: "fab fa-youtube"
-
-spotify:
-  name: "Spotify"
-  urlTemplate: "https://open.spotify.com/user/{value}"
-  icon: "fab fa-spotify"
-
-telephone:
-  name: "Phone"
-  urlTemplate: "tel:{value}"
-  icon: "fas fa-phone"
 
 rss:
   name: "RSS"
@@ -85,8 +55,3 @@ twitch:
   name: "Twitch"
   urlTemplate: "https://www.twitch.tv/{value}"
   icon: "fab fa-twitch"
-
-yelp:
-  name: "Yelp"
-  urlTemplate: "https://{value}.yelp.com"
-  icon: "fab fa-yelp"
