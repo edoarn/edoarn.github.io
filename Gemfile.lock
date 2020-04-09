@@ -238,6 +238,7 @@ GEM
     tzinfo-data (1.2019.3)
       tzinfo (>= 1.0.0)
     unicode-display_width (1.7.0)
+    wdm (0.1.1)
     zeitwerk (2.3.0)
 
 PLATFORMS
@@ -247,6 +248,7 @@ DEPENDENCIES
   github-pages
   jekyll-paginate
   tzinfo-data
+  wdm
 
 BUNDLED WITH
    1.17.2
