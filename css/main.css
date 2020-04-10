@@ -346,6 +346,26 @@ footer .theme-by {
     font-size: 36px;
   }
 }
+/* --- References --- */
+
+.blog-references {
+  list-style: none;
+  padding-left: 16px;
+}
+
+.ref-item {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+.ref-item-id {
+  font-weight: bold;
+  padding-right: 8px;
+}
+
+.ref-item a {
+  color: #404040;
+}
 
 /* --- Tags --- */
 
