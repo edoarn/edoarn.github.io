@@ -1,0 +1,27 @@
+{% if page.references %}
+<div id="references">
+  <h3>References</h3>
+  <ol class="blog-references">
+    {% for ref in page.references %}
+    <li id="ref-{{ ref.id }}" class="ref-item">
+      {% if ref.author %}
+        <span class="ref-author">{{ ref.author }}</span>, 
+      {% endif %}
+      {% if ref.title %}
+        <span class="ref-title">{{ ref.title }}</span>, 
+      {% endif %}
+      {% if ref.book-title %}
+        <span class="ref-book-title">In {{ ref.book-title }}</span>, 
+      {% endif %}
+      {% if ref.pages %}
+        <span class="ref-book-pages">{{ ref.pages }}</span>, 
+      {% endif %}
+      {% if ref.year %}
+        <span class="ref-year">{{ ref.year }}</span>, 
+      {% endif %}
+      <a href="{{ ref.url }}">{{ ref.url }}</a></li>
+    {% endfor %}
+  </ol>
+</div>
+<hr />
+{% endif %}

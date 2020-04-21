@@ -1,7 +1,7 @@
 # --- General options --- #
 
 # Name of website
-title: "wild[code]"
+title: "distillcode"
 
 # Short description of your site
 description: "Stories about AI and other amazing adventures."
@@ -157,7 +157,7 @@ date_format: "%B %-d, %Y"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "Europe/Rome"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/

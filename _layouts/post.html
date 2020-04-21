@@ -35,19 +35,7 @@ layout: base
         {{ content }}
       </article>
 
-      {% if page.references %}
-      <div id="references">
-        <h3>References</h3>
-        <ul class="blog-references">
-          {% for ref in page.references %}
-          <li id="ref-{{ ref.id }}" class="ref-item">
-            <span class="ref-item-id">{{ ref.id }}.</span>
-            <a href="{{ ref.url }}">{{ ref.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
-      <hr/>
-      {% endif %}
+      {% include bibliography.html %}
 
       {% if page.tags.size > 0 %}
         <div class="blog-tags">
